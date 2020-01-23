@@ -5,7 +5,7 @@
  * For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/MIT
  */
 const path = require('path');
-const replace = require('rollup-plugin-replace');
+const replace = require('@rollup/plugin-replace');
 const { rollup } = require('rollup');
 const { version } = require('../package.json');
 

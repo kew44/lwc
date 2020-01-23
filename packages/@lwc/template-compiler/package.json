@@ -10,22 +10,22 @@
         "build": "tsc",
         "test": "jest"
     },
-    "devDependencies": {
-        "@types/he": "^1.1.0"
-    },
     "files": [
         "dist/"
     ],
+    "devDependencies": {
+        "@types/he": "^1.1.0"
+    },
     "dependencies": {
-        "@babel/generator": "~7.1.5",
-        "@babel/parser": "~7.1.5",
-        "@babel/template": "~7.1.2",
-        "@babel/traverse": "~7.1.5",
-        "@babel/types": "~7.1.5",
+        "@babel/generator": "^7.8.3",
+        "@babel/parser": "^7.8.3",
+        "@babel/template": "^7.8.3",
+        "@babel/traverse": "^7.8.3",
+        "@babel/types": "^7.8.3",
         "@lwc/errors": "1.1.16",
         "@lwc/shared": "1.1.16",
         "esutils": "^2.0.2",
-        "he": "^1.1.1",
+        "he": "^1.2.0",
         "parse5-with-errors": "4.0.3-beta1"
     },
     "publishConfig": {

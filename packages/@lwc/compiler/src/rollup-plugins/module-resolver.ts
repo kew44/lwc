@@ -130,7 +130,12 @@ export default function({ options }: { options: NormalizedCompileOptions }): Plu
     return {
         name: 'lwc-module-resolver',
 
-        resolveId(importee: string, importer: string) {
+        resolveId(importee: string, importer?: string) {
+            // TODO: Fix me
+            // if (!importer) {
+            //     return false;
+            // }
+
             // Mark non-relative imports (eg. 'lwc' or 'x/foo') as external dependencies.
             if (!isRelativeImport(importee) && importer) {
                 return false;
